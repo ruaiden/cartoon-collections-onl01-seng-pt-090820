@@ -9,7 +9,7 @@ def roll_call_dwarves(array) # code an argument here
 end
 
 def summon_captain_planet(veggies) # code an argument here
-    
+    veggies.map{|x| "#{x.capitalize}!"}
      end 
     end
   end
