@@ -22,7 +22,7 @@ def long_planeteer_calls(long)
   if long.any? {|i| i.length < 4}
     return true
 
-  else
+  elsif
     long.any? {|i| i.length >= 4}
     return false
   end
