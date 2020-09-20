@@ -10,8 +10,7 @@ end
 
 def summon_captain_planet(veggies) # code an argument here
     veggies.map{|x| "#{x.capitalize}!"}
-     end 
-    end
+     
   end
 
 def long_planeteer_calls(long)
