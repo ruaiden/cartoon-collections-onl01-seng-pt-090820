@@ -19,11 +19,11 @@ def summon_captain_planet(veggies) # code an argument here
   end
 
 def long_planeteer_calls(long)
-  if long.any? {|i| i.length < 4}
+  if long.any? {|i| i.length > 4}
      true
 
   elsif
-    long.select {|i| i.length >= 4}
+    long.select {|i| i.length <= 4}
      false
   end
 end
