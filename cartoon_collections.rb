@@ -14,7 +14,7 @@ def summon_captain_planet(veggies) # code an argument here
      
     while i < veggies.length
    # new_array << veggies[i].capitalize + "!"
-   vegan.push veg.capitalize
+    veggies do |veg| vegan.push(veg.capitalize)
     vegan.join ("!")
    
     i += 1 
