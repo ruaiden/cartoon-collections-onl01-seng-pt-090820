@@ -23,8 +23,8 @@ def long_planeteer_calls(long)
     return true
 
   else
-    return long any? {|i| i.length >= 4}
-    false
+    long any? {|i| i.length >= 4}
+    return false
   end
 end
 
