@@ -9,16 +9,7 @@ def roll_call_dwarves(array) # code an argument here
 end
 
 def summon_captain_planet(veggies) # code an argument here
-     i = 0 
-     new_array = []
-     
-    while i < veggies.length
-   
-   
-   # new_array << veggies[i].capitalize + "!"
-    veggies do |veg| new_array.push(veg.capitalize)
-    new_array.join ("!")
-       i += 1 
+    
      end 
     end
   end
